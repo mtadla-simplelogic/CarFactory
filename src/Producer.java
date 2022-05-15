@@ -1,9 +1,9 @@
-public class Producent {
+public class Producer {
     private String name;
 
     private String model;
 
-    public Producent(String name, String model) {
+    public Producer(String name, String model) {
         this.name = name;
         this.model = model;
     }
@@ -17,6 +17,6 @@ public class Producent {
     }
 
     public void printAllData(){
-        System.out.println("Producent: " + name + " " + model);
+        System.out.println("Producer: " + name + " " + model);
     }
 }
